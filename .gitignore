@@ -1,4 +1,3 @@
 **/node_modules
 **/.env
-**/.OpenAi.js
-**/.replicateAi.js
+**/PDFs/
