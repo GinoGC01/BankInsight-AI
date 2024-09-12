@@ -21,15 +21,9 @@
 # BankInsight AI: Automatización Inteligente de Análisis Bancario
 
 
-**Contenido: **
-
-[TOCM]
-
-[TOC]
-
-##Idea general del proyecto
+## Idea general del proyecto
 La idea general del proyecto consiste principalmente en agilizar procesos dentro de un nicho específico. En este caso, un estudio contable.
-###Objetivos específicos
+### Objetivos específicos
 - Automatizar la extracción de datos de resúmenes bancarios en formato PDF, incluyendo transacciones, ingresos, gastos, impuestos y otros movimientos financieros.
 
 - Utilizar inteligencia artificial para analizar y clasificar las transacciones, diferenciando entre categorías como impuestos, comisiones, ingresos y egresos.
