@@ -1,10 +1,9 @@
-import { partialQueryFunc } from "./partialQuerys.js";
-import { pdfParsePromise } from "./pdfParse.js";
+import { partialQueryFunc } from "./services/partialQuerysEmulator.js";
+import { pdfParsePromise } from "./services/pdfParse.js";
 
-// console.log(pdfPArse("./PDFs/BBVA 2023.pdf"));
 // jsonTable(textPdf);
 
-const rutaPDF = "./PDFs/test-2.pdf";
+const rutaPDF = "./PDFs/test-02.pdf";
 
 const procesarPDF = async () => {
   try {
@@ -16,5 +15,7 @@ const procesarPDF = async () => {
 };
 
 procesarPDF().then((value) => {
+  console.log(value);
+  console.log(" ");
   partialQueryFunc(value);
 });
