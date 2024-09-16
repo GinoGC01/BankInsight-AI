@@ -44,7 +44,6 @@ La idea general del proyecto consiste principalmente en agilizar procesos dentro
 En este README, se encuentran dos carpetas "**pdf-test**" que trabaja con las siguientes dependencias principalmente: 
 - "**pdf-poppler**"
 -  "**tesseract.js**"
--   "**xlsx**"
 
 El funcionamiento de este, en principio, es tomar una imagen de cada página del pdf y guardarla en un directorio "output" y luego con la biblioteca "**tesseract.js**" que extrae el texto mediante la tecnologia OCR, procesarla en un input a traves de una API de inteligencia artificial previamente configurada.
 
